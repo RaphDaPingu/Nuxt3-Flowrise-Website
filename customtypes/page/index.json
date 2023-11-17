@@ -35,9 +35,6 @@
             },
             "hero": {
               "type": "SharedSlice"
-            },
-            "rich_text": {
-              "type": "SharedSlice"
             }
           }
         }
