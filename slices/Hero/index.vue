@@ -22,7 +22,7 @@ import { type Content } from "@prismicio/client";
     <div
       class="grid grid-cols-1 place-items-center"
       :class="{
-        'grid-cols-2': slice.variation == 'horizontal'
+        'md:grid-cols-2': slice.variation == 'horizontal'
       }"
     >
       <div
