@@ -49,10 +49,10 @@ const testimonials = computed(() => {
             class="rounded-full mr-4 aspect-square"
           />
           <div>
-            <p class="text-base font-medium text-slate-700">
+            <p class="text-base font-body">
               {{testimonial.data.name}}
             </p>
-            <p class="text-base text-slate-700">
+            <p class="text-base font-body text-slate-500">
               {{testimonial.data.job_title}}
             </p>
           </div>
