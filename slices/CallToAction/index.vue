@@ -18,7 +18,7 @@ defineProps(
     :data-slice-type="slice.slice_type"
     :data-slice-variation="slice.variation"
   >
-    <div class="max-w-4xl max-auto md:px-12 px-4 py-12 grid place-items-center rounded-lg bg-gradient-to-tr from-cyan-50 via-white to-emerald-50 shadow-xl">
+    <div class="max-w-4xl mx-auto md:px-12 px-4 py-12 grid place-items-center rounded-lg bg-gradient-to-tr from-cyan-50 via-white to-emerald-50 shadow-xl">
       <PrismicRichText
         :field="slice.primary.heading"
         class="mb-2 heading heading--sm"
