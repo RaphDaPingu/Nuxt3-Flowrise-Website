@@ -13,6 +13,8 @@ defineProps(
 );
 </script>
 
+<!-- This shit does NOT work properly on localhost:3000 lol -->
+
 <template>
   <Bounded
     :data-slice-type="slice.slice_type"
